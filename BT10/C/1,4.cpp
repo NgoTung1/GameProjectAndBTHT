@@ -1,9 +1,9 @@
 #include <iostream>
-#include <cstring>
 using namespace std;
 char* pad_left(const char a[],int n)
 {
-    int b = strlen(a);
+     int b = 0;
+    while(a[b] != '\0') b++;
     if(b>n) return 0;
     else {
         char* s = new char[n+1];

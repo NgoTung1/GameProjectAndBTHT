@@ -1,9 +1,9 @@
 #include <iostream>
-#include <cstring>
 using namespace std;
 char* trim_right(const char a[])
 {
-    int b = strlen(a);
+    int b = 0;
+    while(a[b] != '\0') b++;
     int cnt(0);
     for (int i= 0;i<b;i++)
     {

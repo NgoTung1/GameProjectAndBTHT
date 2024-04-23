@@ -1,9 +1,9 @@
 #include <iostream>
-#include <cstring>
 using namespace std;
 char* s(const char a[], char c)
 {
-    int n = strlen(a);
+    int n = 0;
+    while(a[n] != '\0') n++;
     int j=0;
     char *s = new char[n+1];
     for (int i= 0;i<n;i++)
