@@ -1,7 +1,0 @@
-Câu 1:
-đoạn cout << “*p3 = “ << *p3 << “, p3 = “ << p3 << endl; sẽ in ra 'B' và địa chỉ của d là 0x5678
-đoạn cout << “*p3 = “ << *p3 << “, p3 = “ << p3 << endl; sẽ in ra 'A' và địa chỉ của c là 0x1234
-đoạn cout << “*p1 = “ << *p1 << “, p1 = “ << p1 << endl;
-sẽ in ra 'B' và địa chỉ cũ là 0x1234
-Câu 2: lệnh *p = 5 sẽ gán giá trị cho i = 5 vì p đã đc khởi tạo là địa chỉ của i
-Câu 3: lỗi này là lỗi không khởi tạo kiểu biến khác nhau
